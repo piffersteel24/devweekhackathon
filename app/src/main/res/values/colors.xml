@@ -4,4 +4,25 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="Gainsboro">#DCDCDC</color>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="AliceBlue">#F0F8FF</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="LightBlue">#D8ECF3</color>
+    <color name="LightBlue2">#c4e2ed</color>
+    <color name="LightBlue3">#b1d9e7</color>
+    <color name="SemiDarkGray">#d9d9d9</color>
+    <color name="DarkerGrayLight">#a6a6a6</color>
+    <color name="DarkBlue">#00004d</color>
+    <color name="LightDarkBlue">#000066</color>
+    <color name="LighterBlue">#000080</color>
+    <color name="LightBlueDark">#000099</color>
+
+
+
+
+
+
 </resources>
