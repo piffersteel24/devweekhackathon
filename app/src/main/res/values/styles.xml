@@ -6,7 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:background">@color/LightSkyBlue</item>
+        <item name="android:background">@color/Turq</item>
     </style>
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
