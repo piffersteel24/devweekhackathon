@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
 
             }, 500)
         },700)
+
     }
 }
 
