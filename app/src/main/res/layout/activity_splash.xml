@@ -5,9 +5,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        tools:context="com.example.whatever.SplashActivity"
+        tools:context="com.example.whatever.SplashActivity2"
         android:theme="@style/AppTheme"
-        android:background="@color/colorPrimary">
+        android:background="@color/WhiteSmoke">
 
 
     <Button
@@ -25,6 +25,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginRight="8dp"
             app:layout_constraintHorizontal_bias="0.498"
-            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.856"/>
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.91"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
 </android.support.constraint.ConstraintLayout>
