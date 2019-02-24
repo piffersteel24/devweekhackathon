@@ -149,7 +149,7 @@
                       android:layout_marginLeft="215dp"
                       android:layout_marginBottom="20dp"
                       android:layout_marginTop="650dp"
-                      android:background="@color/AliceBlue" android:gravity="center"/>
+                      android:background="@color/AliceBlue" android:gravity="center|left"/>
 
 
         </RelativeLayout>
