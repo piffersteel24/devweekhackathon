@@ -27,82 +27,19 @@
             app:layout_constraintHorizontal_bias="0.498"
             android:clickable="true"
             android:focusable="true"
-            android:focusableInTouchMode="true" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/scrollView3"/>
-    <ScrollView
-            android:layout_width="410dp"
-            android:layout_height="580dp"
+            android:focusableInTouchMode="true"
+    />
+    <ListView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintRight_toRightOf="parent" android:id="@+id/scrollView3"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/push_button2">
-        <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView"
-
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView2"
-
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView3"
-
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView4"
-
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView5"
-
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-
-        </LinearLayout>
-
-    </ScrollView>
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            android:foreground="@android:color/black">
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView"/>
+    </ListView>
 
 </android.support.constraint.ConstraintLayout>
