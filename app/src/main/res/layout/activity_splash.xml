@@ -13,7 +13,23 @@
             android:layout_height="517dp"
             app:layout_editor_absoluteX="1dp"
             app:layout_editor_absoluteY="1dp"
-            android:background="@color/AliceBlue">
+            android:background="@color/AliceBlue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.166" android:id="@+id/frameLayout"/>
 
-    </FrameLayout>
+    <Button
+            android:id="@+id/push_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg_round"
+            android:padding="15dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"/>
 </android.support.constraint.ConstraintLayout>
