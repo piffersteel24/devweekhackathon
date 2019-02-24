@@ -2,16 +2,15 @@
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         tools:context="com.example.whatever.SplashActivity"
-        android:theme="@style/AppTheme"
-        android:background="@color/WhiteSmoke"
+        android:theme="@style/SplashTheme"
         tools:orientation="vertical"
-        >
+        tools:background="@color/LightSkyBlue">
     <ScrollView android:layout_width="450dp"
-                android:layout_height="550dp"
+                android:layout_height="650dp"
                 android:layout_marginEnd="500dp"
                 android:layout_marginRight="500dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -22,104 +21,148 @@
                 android:layout_marginTop="45dp"
                 android:id="@+id/scrollView4"
                 android:layout_marginBottom="120dp"
-                app:layout_constraintBottom_toTopOf="@+id/push_button1">
+                app:layout_constraintBottom_toTopOf="@+id/push_button1" android:background="@color/AliceBlue">
         <RelativeLayout
-                        android:layout_width="fill_parent"
-                      android:layout_height="fill_parent"
-                      android:orientation="vertical"
-               >
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@color/AliceBlue">
             <ImageView
                     android:id="@+id/id_logo1"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/color_red"
                     android:theme="@style/SplashTheme"
                     android:contentDescription="TODO"
                     android:background="@color/DarkBlue"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="65dp"
                     android:layout_marginLeft="50dp">
 
             </ImageView>
 
             <TextView android:layout_width="200dp"
                       android:layout_height="80dp"
-                      android:text="TextBox"
+                      android:text="LiveFeed1"
                       android:textColor="@color/DarkBlue"
-                      android:gravity="center"
-                      android:textSize="20sp"
+                      android:textSize="15sp"
                       app:layout_constraintStart_toEndOf="@+id/id_logo"
                       android:layout_marginLeft="215dp"
                       android:layout_marginBottom="20dp"
-                      android:layout_marginTop="80dp"
+                      android:layout_marginTop="85dp"
 
 
-                      />
+                      android:background="@color/AliceBlue" android:gravity="center|left"/>
             <ImageView
                     android:id="@+id/id_logo2"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/color_red"
                     android:theme="@style/SplashTheme"
                     android:contentDescription="TODO"
                     android:background="@color/DarkBlue"
-                    android:layout_marginTop="250dp"
+                    android:layout_marginTop="210dp"
                     android:layout_marginLeft="50dp">
 
             </ImageView>
 
             <TextView android:layout_width="200dp"
                       android:layout_height="80dp"
-                      android:text="TextBox"
+                      android:text="LiveFeed2"
                       android:textColor="@color/DarkBlue"
-                      android:gravity="center"
-                      android:textSize="20sp"
+                      android:gravity="center|left"
+                      android:textSize="15sp"
                       app:layout_constraintStart_toEndOf="@+id/id_logo"
                       android:layout_marginLeft="215dp"
                       android:layout_marginBottom="20dp"
-                      android:layout_marginTop="280dp"
+                      android:layout_marginTop="230dp"
 
 
-            />
+                      android:background="@color/AliceBlue"/>
             <ImageView
                     android:id="@+id/id_logo3"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/color_red"
                     android:theme="@style/SplashTheme"
                     android:contentDescription="TODO"
                     android:background="@color/DarkBlue"
-                    android:layout_marginTop="450dp"
+                    android:layout_marginTop="350dp"
                     android:layout_marginLeft="50dp">
 
             </ImageView>
 
             <TextView android:layout_width="200dp"
                       android:layout_height="80dp"
-                      android:text="TextBox"
+                      android:text="LiveFeed3"
                       android:textColor="@color/DarkBlue"
-                      android:gravity="center"
-                      android:textSize="20sp"
+                      android:gravity="center|left"
+                      android:textSize="15sp"
                       app:layout_constraintStart_toEndOf="@+id/id_logo"
                       android:layout_marginLeft="215dp"
                       android:layout_marginBottom="20dp"
-                      android:layout_marginTop="480dp"
+                      android:layout_marginTop="370dp"
+                      android:background="@color/AliceBlue"/>
 
+            <ImageView
+                android:id="@+id/id_logo4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/color_red"
+                android:theme="@style/SplashTheme"
+                android:contentDescription="TODO"
+                android:background="@color/DarkBlue"
+                android:layout_marginTop="490dp"
+                android:layout_marginLeft="50dp">
 
-            />
+        </ImageView>
 
+            <TextView android:layout_width="200dp"
+                      android:layout_height="80dp"
+                      android:text="LiveFeed4"
+                      android:textColor="@color/DarkBlue"
+                      android:gravity="center|left"
+                      android:textSize="15sp"
+                      app:layout_constraintStart_toEndOf="@+id/id_logo"
+                      android:layout_marginLeft="215dp"
+                      android:layout_marginBottom="20dp"
+                      android:layout_marginTop="510dp"
+                      android:background="@color/AliceBlue"/>
+            <ImageView
+                    android:id="@+id/id_logo5"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/color_red"
+                    android:theme="@style/SplashTheme"
+                    android:contentDescription="TODO"
+                    android:background="@color/DarkBlue"
+                    android:layout_marginTop="630dp"
+                    android:layout_marginLeft="50dp">
+
+            </ImageView>
+
+            <TextView android:layout_width="200dp"
+                      android:layout_height="80dp"
+                      android:text="LiveFeed5"
+                      android:textColor="@color/DarkBlue"
+                      android:textSize="15sp"
+                      app:layout_constraintStart_toEndOf="@+id/id_logo"
+                      android:layout_marginLeft="215dp"
+                      android:layout_marginBottom="20dp"
+                      android:layout_marginTop="650dp"
+                      android:background="@color/AliceBlue" android:gravity="center"/>
 
 
         </RelativeLayout>
     </ScrollView>
     <Button
             android:id="@+id/push_button1"
-            android:layout_height="80dp"
-            android:background="@drawable/button_bg_round"
+            android:layout_height="60dp"
+            android:background="@drawable/comment_btn"
             android:padding="15dp"
             android:clickable="true"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="false"
             android:layout_alignParentRight="true"
@@ -135,15 +178,15 @@
     </Button>
     <Button
             android:id="@+id/push_button2"
-            android:layout_height="80dp"
-            android:background="@drawable/button_bg_round"
+            android:layout_height="60dp"
+            android:background="@drawable/settings_btn"
             android:padding="15dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
             android:clickable="true"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="false"
@@ -158,13 +201,13 @@
     </Button>
     <Button
             android:id="@+id/push_button3"
-            android:layout_height="80dp"
-            android:background="@drawable/button_bg_round"
+            android:layout_height="60dp"
+            android:background="@drawable/record_btn"
             android:padding="15dp"
             android:clickable="true"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_alignParentLeft="false"
@@ -175,7 +218,7 @@
             app:layout_constraintStart_toEndOf="@+id/push_button1"
             app:layout_constraintEnd_toStartOf="@+id/push_button2"
             android:layout_alignParentStart="false"
-            android:layout_alignParentEnd="false" android:layout_marginBottom="151dp"
+            android:layout_alignParentEnd="false" android:layout_marginBottom="200dp"
             android:layout_marginLeft="1dp" android:layout_marginStart="1dp"
             android:layout_marginEnd="1dp" android:layout_marginRight="1dp"
             android:layout_marginTop="200dp" app:layout_constraintTop_toBottomOf="@+id/scrollView4">
@@ -183,4 +226,4 @@
     </Button>
 
 
-    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/LightSkyBlue</item>
     </style>
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
@@ -23,7 +24,7 @@
     </style>
 
     <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
-        <item name="android:background">@color/black_overlay</item>
+        <item name="android:background">@color/LightSkyBlue</item>
     </style>
 
     <style name="IconTheme">
