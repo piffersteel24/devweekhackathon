@@ -3,9 +3,17 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
         tools:context="com.example.whatever.SplashActivity"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" android:background="@color/colorPrimary">
 
 
+    <FrameLayout
+            android:layout_width="415dp"
+            android:layout_height="517dp"
+            app:layout_editor_absoluteX="1dp"
+            app:layout_editor_absoluteY="1dp"
+            android:background="@color/AliceBlue">
+
+    </FrameLayout>
 </android.support.constraint.ConstraintLayout>
