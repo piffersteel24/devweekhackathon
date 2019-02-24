@@ -13,18 +13,26 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         overridePendingTransition(R.anim.fade_in,R.anim.fade_out)
         id_logo.startAnimation(AnimationUtils.loadAnimation(this,R.anim.fade_in))
 
         Handler().postDelayed({
-            id_logo.startAnimation(AnimationUtils.loadAnimation(this,R.anim.splash_out))
+            id_logo.startAnimation(AnimationUtils.loadAnimation(this, R.anim.splash_out))
             Handler().postDelayed({
-                id_logo.visibility = View.GONE
-                startActivity(Intent(this,SplashActivity::class.java))
-                finish()
-            },500)
-        },2500)
+                id_logo.startAnimation(AnimationUtils.loadAnimation(this, R.anim.splash_in))
+                Handler().postDelayed({
+                    id_logo.startAnimation(AnimationUtils.loadAnimation(this, R.anim.splash_out))
+                    Handler().postDelayed({
+                        id_logo.visibility = View.GONE
+                        startActivity(Intent(this, SplashActivity::class.java))
+                        finish()
 
+                    }, 1000)
+                }, 700)
+
+            }, 500)
+        },700)
     }
 }
 

@@ -20,5 +20,7 @@
     <color name="LighterBlue">#000080</color>
     <color name="LightBlueDark">#000099</color>
     <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="Turq">#2BDCBa</color>
+    <color name="TurqDark">#00A99D</color>
 
 </resources>
