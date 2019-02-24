@@ -16,6 +16,7 @@
                 android:theme="@style/FullscreenTheme">
         </activity>
 
+
         <meta-data
                 android:name="com.google.android.actions"
                 android:resource="@xml/button_img_round"/>

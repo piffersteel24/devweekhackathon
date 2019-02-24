@@ -7,102 +7,180 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         tools:context="com.example.whatever.SplashActivity"
         android:theme="@style/AppTheme"
-        android:background="@color/WhiteSmoke">
+        android:background="@color/WhiteSmoke"
+        tools:orientation="vertical"
+        >
+    <ScrollView android:layout_width="450dp"
+                android:layout_height="550dp"
+                android:layout_marginEnd="500dp"
+                android:layout_marginRight="500dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="500dp"
+                android:layout_marginStart="500dp"
+                android:layout_marginTop="45dp"
+                android:id="@+id/scrollView4"
+                android:layout_marginBottom="120dp"
+                app:layout_constraintBottom_toTopOf="@+id/push_button1">
+        <RelativeLayout
+                        android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:orientation="vertical"
+               >
+            <ImageView
+                    android:id="@+id/id_logo1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/color_red"
+                    android:theme="@style/SplashTheme"
+                    android:contentDescription="TODO"
+                    android:background="@color/DarkBlue"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="50dp">
+
+            </ImageView>
+
+            <TextView android:layout_width="200dp"
+                      android:layout_height="80dp"
+                      android:text="TextBox"
+                      android:textColor="@color/DarkBlue"
+                      android:gravity="center"
+                      android:textSize="20sp"
+                      app:layout_constraintStart_toEndOf="@+id/id_logo"
+                      android:layout_marginLeft="215dp"
+                      android:layout_marginBottom="20dp"
+                      android:layout_marginTop="80dp"
 
 
+                      />
+            <ImageView
+                    android:id="@+id/id_logo2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/color_red"
+                    android:theme="@style/SplashTheme"
+                    android:contentDescription="TODO"
+                    android:background="@color/DarkBlue"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="50dp">
+
+            </ImageView>
+
+            <TextView android:layout_width="200dp"
+                      android:layout_height="80dp"
+                      android:text="TextBox"
+                      android:textColor="@color/DarkBlue"
+                      android:gravity="center"
+                      android:textSize="20sp"
+                      app:layout_constraintStart_toEndOf="@+id/id_logo"
+                      android:layout_marginLeft="215dp"
+                      android:layout_marginBottom="20dp"
+                      android:layout_marginTop="280dp"
+
+
+            />
+            <ImageView
+                    android:id="@+id/id_logo3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/color_red"
+                    android:theme="@style/SplashTheme"
+                    android:contentDescription="TODO"
+                    android:background="@color/DarkBlue"
+                    android:layout_marginTop="450dp"
+                    android:layout_marginLeft="50dp">
+
+            </ImageView>
+
+            <TextView android:layout_width="200dp"
+                      android:layout_height="80dp"
+                      android:text="TextBox"
+                      android:textColor="@color/DarkBlue"
+                      android:gravity="center"
+                      android:textSize="20sp"
+                      app:layout_constraintStart_toEndOf="@+id/id_logo"
+                      android:layout_marginLeft="215dp"
+                      android:layout_marginBottom="20dp"
+                      android:layout_marginTop="480dp"
+
+
+            />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
     <Button
-            android:id="@+id/push_button2"
-            android:layout_width="80dp"
+            android:id="@+id/push_button1"
             android:layout_height="80dp"
             android:background="@drawable/button_bg_round"
             android:padding="15dp"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp"
-            android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginRight="8dp"
-            app:layout_constraintHorizontal_bias="0.498"
             android:clickable="true"
             android:focusable="true"
-            android:focusableInTouchMode="true" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/scrollView3"/>
-    <ScrollView
-            android:layout_width="410dp"
-            android:layout_height="580dp"
-            app:layout_constraintStart_toStartOf="parent"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:layout_alignWithParentIfMissing="false"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintRight_toRightOf="parent" android:id="@+id/scrollView3"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/push_button2">
-        <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView"
+            android:layout_marginTop="750dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="20dp" android:layout_marginStart="20dp" android:layout_marginBottom="151dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="67dp"
+            app:layout_constraintEnd_toStartOf="@+id/push_button3" android:layout_marginRight="67dp"
+            android:layout_alignParentStart="false" android:layout_alignParentEnd="true">
 
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView2"
+    </Button>
+    <Button
+            android:id="@+id/push_button2"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg_round"
+            android:padding="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignWithParentIfMissing="false" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="750dp"
+            android:layout_marginBottom="151dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/push_button3" android:layout_marginStart="67dp"
+            android:layout_marginLeft="67dp" android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="false">
 
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView3"
+    </Button>
+    <Button
+            android:id="@+id/push_button3"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg_round"
+            android:padding="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignWithParentIfMissing="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/push_button1"
+            app:layout_constraintEnd_toStartOf="@+id/push_button2"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false" android:layout_marginBottom="151dp"
+            android:layout_marginLeft="1dp" android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp" android:layout_marginRight="1dp"
+            android:layout_marginTop="200dp" app:layout_constraintTop_toBottomOf="@+id/scrollView4">
 
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView4"
+    </Button>
 
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-            <ImageView
-                    android:layout_width="145dp"
-                    android:layout_height="138dp"
-                    android:id="@+id/imageView5"
 
-                    app:srcCompat="@color/DarkBlue"
-                    android:contentDescription="@string/none3"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginStart="24dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="24dp"/>
-
-        </LinearLayout>
-
-    </ScrollView>
-
-</android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
